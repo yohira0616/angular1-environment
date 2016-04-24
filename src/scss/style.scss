@@ -1,0 +1,8 @@
+@mixin myMixin {
+  background-color: #00DD00;
+}
+
+h1 {
+  @include myMixin;
+  text-align: center;
+}
