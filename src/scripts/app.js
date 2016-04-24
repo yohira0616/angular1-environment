@@ -10,5 +10,6 @@ angular.module('app')
 
 angular.module('app')
   .controller('SampleController', function ($scope) {
-    $scope.text = 'hey!';
+    var timeStr = new Date().toDateString();
+    $scope.text = `Hey! time is ${timeStr}`;
   });
