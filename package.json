@@ -1,0 +1,16 @@
+{
+  "name": "angular1-environment",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare":"npm install & bower install"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "run-sequence": "^1.1.5"
+  }
+}
